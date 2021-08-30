@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * <p>To mark a test class as an integration test add the following lines before the class declaration:</p>
  *
  * <pre><code>
- * import org.junit.experimental.categories.Category;
+ * import org.junit.jupiter.api.Tag;
  *
  * @Category(org.gitlab4j.api.IntegrationTest.class)
  * </code></pre>
